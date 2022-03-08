@@ -1,0 +1,314 @@
+/***************RESET***************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 25%;
+	font: inherit;
+	vertical-align: middle;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***************GENERAL***************/
+*{box-sizing: border-box;}
+body {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.containerimage1{
+  width: auto;
+  background-image:url("Imágenes/Fondo1.jpg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position:relative;
+  display:inline-block;
+}
+.logo {
+  position: relative;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.menuspring{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #d03b40;
+}
+.menulines {
+  width: 35px;
+  height: 5px;
+  background-color: #f5f0ed;
+  border-radius: 8px;
+  margin: 6px;
+}
+.maintitle, .fourthtitle{
+  font-family: Open Sans Extrabold;
+  color:#f5f0ed;
+  font-size: 44px;
+  text-align: center;
+  margin: 30px auto;
+  line-break: loose;
+}
+.linebreak {
+  width: 100px;
+  height: 3px;
+  background-color: #f5f0ed;
+  margin: 30px auto;
+}
+.text1, .text2, .text4, .text10 {
+  text-align: center;
+  color:#ded6c0;
+  justify-content:center;
+  margin: auto;
+  line-height:30px;
+  padding: 10px 60px;
+}
+.container1, .container3{
+  display: flex;
+  overflow:hidden;
+  width: 100%;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.column1, .column8 {
+  background-color: #d03b40;
+  width: 100%;
+  height: auto;
+  float: none;
+}
+.secondtitle, .tenthtitle {
+  font-family: Open Sans Extrabold;
+  color:#ded6c0;
+  font-size: 28px;
+  text-align: center;
+  margin: 30px auto;
+  line-height: 30px;
+}
+.column2, .column7 {
+  background-color: #ded6c0;
+  width: 100%;
+  height: auto;
+  float: none;
+}
+.thirdtitle, .ninethtitle {
+  font-family: Open Sans Extrabold;
+  color:#d03b40;
+  font-size: 28px;
+  text-align: center;
+  margin: 30px auto;
+  line-height: 30px;
+}
+.text3, .text9 {
+  text-align: center;
+  color:#d03b40;
+  margin: auto;
+  line-height:30px;
+  padding: 10px 60px;
+}
+@media screen and (min-width: 600px) {
+  .column1, .column2, .column7, .column8 {
+    width: 50%;
+    padding: 15px;
+  }
+}
+.containerimage2{
+  background-image: url(/Imágenes/Fondo2.jpg);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position:relative;
+  display: inline-block;
+}
+.button1{
+ color:#f5f0ed;
+ font-size: 14px;
+ justify-content:center;
+ text-align: center;
+ border: 2px solid #f5f0ed;
+ width: 300px;
+ margin: 25px auto;
+ display: flex;
+ padding: 10px 0px;
+}
+.fifthtitle, .sixthtitle, .seventhtitle, .eighthtitle {
+  font-size: 24px;
+  font-family: Open Sans Extrabold;
+  text-align: left;
+  color: #3c3c3b;
+  margin: auto;
+  line-height:10px;
+  padding: 0px 20px;
+}
+@media screen and (min-width: 600px) {
+  .fifthtitle, .sixthtitle, .seventhtitle, .eighthtitle {
+    font-size: 20px;
+    line-height:25px;
+  }
+}
+.text5, .text6, .text7, .text8 {
+  font-size: 16px;
+  text-align: left;
+  color: #3c3c3b;
+  margin: auto;
+  line-height:30px;
+  padding: 10px 20px;
+}
+@media screen and (min-width: 600px) {
+  .text5, .text6, .text7, .text8 {
+  font-size: 12px;
+  line-height:20px;
+  }
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  overflow:hidden;
+  width: 100%;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+.column3, .column4 {
+  background-color: #f5f0ed;
+  width: 100%;
+  float: none;
+  flex: 100%;
+}
+.column5, .column6 {
+  background-color: #f5f0ed;
+  width: 100%;
+  float: none;
+  flex: 100%;
+}
+@media screen and (min-width: 600px) {
+  .column3, .column4, .column5, .column6 {
+    flex: 50%;
+    display: inline-flex;
+    height: auto;
+    padding: auto;
+  }
+}
+.element1, .element3, .element5, .element7 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+@media screen and (min-width: 600px) {
+  .element1 {
+    display: inline-block;
+    margin: auto;
+  }
+  .element2 {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+  }
+  .element3 {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+  }
+  .element4 {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+  }
+  .element5 {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+  }
+  .element6 {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+  }
+  .element7 {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+  }
+  .element8 {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+  }
+}
+.icon1, .icon2, .icon3, .icon4 {
+  width: 100px;
+  height: 100px;
+  margin: 15px 0px;
+}
+@media screen and (min-width: 600px) {
+  .icon1, .icon2, .icon3, .icon4 {
+    width: 100px;
+    height: 100px;
+  }
+}
+.bottom {
+  background-color: #241d1b;
+  color: #f5f0ed;
+  font-size: 16px;
+  padding: 25px 15px;
+  width:100%;
+  height: 100px;
+  line-height: 20px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.flex-direction {
+  flex-direction: column;
+}
+.dot {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .dot {
+    display:flex;
+    padding: 0px 10px;
+  }
+  .flex-direction {
+    flex-direction: row;
+  }
+}
